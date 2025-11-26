@@ -1,0 +1,27 @@
+# Ignore dependencies and build output
+node_modules
+.next
+out
+build
+dist
+
+# Local OS / editor files
+.DS_Store
+.vscode
+
+# Public and generated assets
+public/**/*.png
+public/**/*.jpg
+public/**/*.jpeg
+public/**/*.svg
+public/**/*.ico
+public/**/*.webp
+
+# Lockfiles and logs (optional)
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+*.log
+
+# Other
+coverage
